@@ -1,41 +1,40 @@
-# Vocalis AI
+# CadenceIQ AI
 
-> **Real-Time Public Speaking & Rhetorical Acoustics Coach**
+> **Real-Time Executive Rhetorical Acoustics & Speech Performance Intelligence**
 
-Real-time public speaking and rhetorical acoustics coach. Measures vocal pacing, tonal pitch stability, hesitation cadence, and filler words to elevate executive communication.
-
----
-
-## 🚀 Tech Stack & Badges
-
-`Python 3.10+` `Flask` `Groq LLM` `Supabase` `SpeechTech` `Vercel`
-
-### Core Technologies
-- **Python 3.10+**
-- **Flask**
-- **Groq LLM**
-- **Supabase**
-- **SpeechTech**
-- **Vercel**
+CadenceIQ AI is a high-precision speech analytics and rhetorical coaching platform designed for executives, founders, and competitive speakers. It captures real-time audio telemetry to evaluate vocal pacing (WPM), pitch stability, tonal modulation, and hesitation cadence.
 
 ---
 
-## ✨ Key Features
+## ðŸš€ Tech Stack & Core Technologies
 
-- **Autonomous Intelligence:** Powered by high-speed LLM reasoning and real-time inference pipelines.
-- **Modern Responsive UI:** Polished interface featuring responsive layouts, fluid transitions, and clear visual hierarchy.
-- **Enterprise-Grade Security:** Strict environment separation, sanitized API configuration, and secure session handling.
-- **Cloud-Ready Architecture:** Pre-configured for seamless serverless deployment on Vercel.
+Python 3.10+ Flask Groq LLM (LLaMA-3.1-8B) Web Audio API Chart.js Vercel
+
+- **Python 3.10+ & Flask:** Microservice architecture powering acoustic analysis and LLM rhetorical feedback.
+- **Groq LLM Engine:** Real-time conversational reasoning generating actionable speaking drills and rhetoric scores.
+- **Web Audio API:** In-browser acoustic telemetry capturing raw decibel dynamics, pause durations, and frequency spectrums.
+- **Interactive Visualization:** Dynamic Chart.js telemetry visualizing vocal stability, pitch curves, and filler-word density.
+- **Serverless Cloud Ready:** Instant serverless deployment compatibility for Vercel.
 
 ---
 
-## 🛠️ Getting Started
+## âœ¨ Key Features
+
+- **Real-Time Cadence Tracking:** Analyzes spoken word velocity (words-per-minute) with optimal executive pacing bands.
+- **Filler Word Detection:** Tracks verbal crutches ("um", "like", "actually", "basically") with live reduction prompts.
+- **Acoustic Pitch & Tone Evaluation:** Identifies monotone patterns and advises on vocal dynamics and emphasis.
+- **Speech Simulation Modes:** Mock interview panels, keynote stage rehearsal, and investor pitch telemetry.
+- **Executive Speech Reports:** Exportable speech performance scorecards with targeted developmental drills.
+
+---
+
+## ðŸ› ï¸ Getting Started
 
 ### 1. Clone & Set Up Virtual Environment
 
-```bash
-git clone https://github.com/Rhythm2903/Vocalis-AI.git
-cd Vocalis-AI
+`ash
+git clone https://github.com/Rhythm2903/CadenceIQ-AI.git
+cd CadenceIQ-AI
 
 # Create and activate Python virtual environment
 python -m venv .venv
@@ -45,47 +44,42 @@ python -m venv .venv
 
 # macOS / Linux
 source .venv/bin/activate
-```
+`
 
 ### 2. Install Dependencies
 
-```bash
+`ash
 pip install -r requirements.txt
-```
+`
 
 ### 3. Configure Environment Variables
 
-```bash
+`ash
 cp .env.example .env
-```
+`
 
-Populate `.env` with your corresponding API keys and database credentials.
+Populate .env with your GROQ_API_KEY.
 
 ### 4. Run the Application
 
-```bash
-# Using Flask
+`ash
 python -m flask run
-
-# Or deploy / test serverless endpoints with Vercel CLI
-vercel dev
-```
-
+`
 
 ---
 
-## 🔐 Environment Variables
+## ðŸ” Environment Variables
 
-Refer to [`.env.example`](.env.example) for the full list of required environment variables. Never commit actual secret keys to version control.
+Refer to [.env.example](.env.example) for required configuration keys.
 
 ---
 
-## 📄 License
+## ðŸ“„ License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👤 Author
+## ðŸ‘¤ Author
 
 Developed & Maintained by **Rhythm Agarwal** ([@Rhythm2903](https://github.com/Rhythm2903))
